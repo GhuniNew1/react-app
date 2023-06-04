@@ -1,0 +1,213 @@
+* {
+  list-style: none;
+}
+/* NAVBAR STYLING STARTS */
+.navbar {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  justify-self: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.navbar li {
+  height: auto;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  justify-self: center;
+  margin: auto;
+  padding: 0px 0px;
+}
+
+.nav-active{
+  color: #ed7b09;
+  font-weight: bold;
+}
+.nav-active:hover {
+  color: #181817;
+  scale: 110%;
+  transition: 0.1s ease-in-out;
+  
+  
+}
+.logo-png {
+  -webkit-animation: fadeIn 3s;
+  animation: fadeIn 3s;
+}
+.logo-png img {
+  width: 80px;
+  height: 80px;
+}
+
+.logo-png img:hover{
+  scale: 110%;
+  transition: 0.1s ease;
+}
+
+.menu {
+  list-style: none;
+  -webkit-animation: fadeIn 3s;
+  animation: fadeIn 3s;
+  justify-content: center;
+  display: flex;
+  gap: 2px;
+  cursor: pointer;
+  margin: 0px 10px;
+
+}
+
+.menu li {
+  list-style: none;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  max-width: 100%;
+  height: auto;
+  padding: 10px 15px;
+  margin: 0px 0px;
+  border-radius: 10px;
+  font-weight: normal;
+  
+}
+
+.menu li:hover {
+  background-color: #0a8a32;
+  scale: 110%;
+  color: #000;
+  transition: 0.3s ease;
+  
+}
+
+.NavLink {
+  list-style: none;
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: none;
+  font-weight: normal;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.NavLink:hover {
+  list-style: none;
+  scale: 110%;
+  color: #121212;
+  border-bottom: none;
+  transition: 0.1s ease;
+
+}
+
+
+
+
+
+input[type="checkbox"] {
+  display: none;
+  z-index: 19;
+}
+
+/* HAMBURGER MENU */
+.hamburger {
+  display: none;
+  font-size: 40px;
+  color: #ffffff;
+  float: right;
+  cursor: pointer;
+  z-index: 20;
+}
+.hamburger:hover {
+  scale: 110%;
+  color: #d77f2d;
+  transition: 0.1s ease;
+}
+
+@media (max-width: 630px) {
+
+  .navbar {
+    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 3s;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 33;
+    
+  }
+  .logo-png img {
+    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 3s;
+    margin: 1rem 1rem;
+    width: 65px;
+    height: auto;
+  }
+  .menu {
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+    display: none;
+    text-align: center;
+    z-index: 29;
+
+  }
+  .menu li {
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+    background-color: rgb(3, 114, 75);
+    margin: 5px 10px;
+    
+    font-size: 16px;
+    z-index: 50;
+  }
+
+  .menu li:hover {
+    scale: 110%;
+    transition: 0.1s ease;
+
+  }
+
+
+
+  input[type="checkbox"]:checked ~ .menu {
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+    display: block;
+    position: fixed;
+    right: 40px;
+    left: 300px;
+    flex-direction: column;
+    padding: 10px 20px;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 100;
+    
+    
+  }
+
+  .hamburger {
+    -webkit-animation: fadeIn 2s;
+    animation: fadeIn 2s;
+    position: relative;
+    list-style: none;
+    display: block;
+    margin: 0px 10px;
+    z-index: 21;
+    transition: 0.2s ease;
+  }
+  .hamburger:hover {
+    -webkit-animation: fadeIn 2s;
+    animation: fadeIn 2s;
+    scale: 110%;
+    transition: 0.2s ease;
+  }
+
+}
