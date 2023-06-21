@@ -1,0 +1,92 @@
+.Errorpages {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    padding: 0;
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    list-style: none;
+}
+.Errorpages h2{
+    margin: 20px;
+    padding: 0px;
+    max-width: 100%;
+    font-size: 30px;
+}
+.Errorpages-1 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    max-width: 1000px;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+}
+.Errorpages-2 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.Errorpages-3 {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.Errorpages-4 {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-width: 630px) {
+    .Errorpages-1 {
+        flex-direction: column;
+    }
+
+}

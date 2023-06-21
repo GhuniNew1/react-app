@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "font1";
+  src: url("./img/1.woff") format("woff");
+}
+
+* {
+  font-family: "font1";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "font1";
+
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  background-color: #000;
+}
+hr {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  transition: border-color 0.25s;
+  font-size: 15px;
+
+}
+button:hover {
+  border-color: #01d13c;
+  background-color: transparent;
+  color: #e33d00;
+}
+button:focus,
+button:focus-visible {
+  outline: 2px solid rgb(92, 172, 11);
+}
+.backToTop  {
+  margin: 0;
+  padding: 0;
+}
+.backToTop > button:hover {
+  color: #d00401;
+  background-color: #dbe1dbd6;
+  border: 3px solid rgba(221, 104, 2, 0);
+}
+.backToTop > button {
+  padding: 0px;
+  position: fixed;
+  box-sizing: border-box;
+  color: #04923a;
+  background-color: rgba(10, 138, 3, 0);
+  border: 2px solid rgba(221, 119, 2, 0.093);
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}
+
+.spinner {
+  display: flex;
+  margin: 10vw auto;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  transition: opacity linear 0.1s;
+  width: 5rem;
+  height: 5rem;
+  border: 3px solid rgba(80, 80, 80, 0.5);
+  border-radius: 50%;
+  border-top-color: #000000;
+  animation: spin 1s ease-in-out infinite;
+  opacity: 0.2;
+}
+.spinner--active {
+  opacity: 1;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

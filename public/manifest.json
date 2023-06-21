@@ -1,0 +1,29 @@
+{
+  "name": "BBS Web",
+  "start_url": "/",
+  "short_name": "BBS",
+  "theme_color": "#000",
+  "background_color": "#000",
+  "display": "standalone",
+  "scope": "/",
+  "description": "@GhuniNew",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "any"
+    },
+    {
+      "src": "favicon-touch.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    },
+    {
+      "src": "apple-icon-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "density": "4.0",
+      "purpose": "maskable"
+    }
+  ]
+}

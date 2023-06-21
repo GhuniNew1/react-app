@@ -1,0 +1,64 @@
+.partner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  transition: 0.3s;
+
+}
+.partner > h2 {
+  color: #000;
+  transition: 0.3s;
+}
+.partner-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  transition: 0.3s;
+  animation-delay: 0s;
+  animation-name: partner;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: initial;
+}
+.partner-2 {
+  height: 100%;
+  width: auto;
+  margin: 10px;
+  padding: 10px;
+  transition: 0.3s;
+}
+.partner-3 {
+  display: flex;
+  flex-direction: row;
+  transition: 0.3s;
+}
+.partner-4 {
+  display: flex;
+  flex-direction: row;
+  transition: 0.3s;
+}
+@keyframes partner {
+  0% {
+    transform: translate(-200px, 0px);
+    opacity: 0;
+  }
+  80% {
+    transform: translate(20px, 0px);
+
+  }
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}

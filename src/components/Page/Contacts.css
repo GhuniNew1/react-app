@@ -1,0 +1,153 @@
+.Contacts {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    padding: 0;
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    list-style: none;
+}
+
+.Contacts-1 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    max-width: 1000px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+}
+.Contacts-2 > iframe{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    z-index: 3;
+    margin: 0;
+    padding: 5px;
+}
+.Contacts-2 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.Contacts-3 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    padding: 10px;
+}
+.Contacts-4 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.Contacts-5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+    margin-right: 50px;
+    margin-top: 50px;
+
+}
+.Contacts-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: center;
+    margin-right: 50px;
+}
+.Contacts-6 h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.Contacts-6 p {
+    text-align: center;
+}
+.linkdata {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 5px;
+    /* filter: drop-shadow(0 0 10px #ed0505ec); */
+}
+
+.linkdata img  {
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    object-fit: cover;
+    align-items: center;
+    animation: linkdata 10s ease-in infinite alternate;
+    transition: 0.3s;
+    
+}
+.linkdata img:hover {
+    outline: 1px auto rgba(243, 90, 29, 0.451);
+    border-radius: 100%;
+    transform: scale(1.1);
+    animation: linkdata 0.5s linear infinite alternate;
+    transition: 0.3s;
+  }
+
+@media only screen and (max-width: 630px) {
+    .Contacts-1 {
+        flex-direction: column;
+    }
+
+}
+@keyframes linkdata {
+    0% {
+      transform: scale(1) translateY(0px);
+    }
+    60% {
+      transform: scale(1.1) translateY(1px);
+    }
+    100% {
+      transform: scale(0.9) translateY(0px);
+    }
+  }
