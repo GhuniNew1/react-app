@@ -76,7 +76,7 @@ const router = createBrowserRouter([
 
 // 4️⃣ RouterProvider added
 export default function App() {
-  return <RouterProvider router={router} fallbackElement={<p>Loading...</p>} />;
+  return <RouterProvider router={router} fallbackElement={<p>Loading...</p>} future={{ v7_startTransition: true }} />;
 }
 
 // 1️⃣ Changed from App to Root
