@@ -74,6 +74,7 @@ export const Pdata1 = [{
     href: 'http://www.linkedin.com/in/bigbrain-studio'
   }];
 
+  // eslint-disable-next-line no-lone-blocks
   {/*
     href: 'tel:+66945395991'
 */}

@@ -36,6 +36,6 @@ export const Fdata = [{
     href: 'http://www.linkedin.com/in/bigbrain-studio'
   }];
 
-  {/*
-    href: 'tel:+66945395991'
-*/}
+//   {/*
+//     href: 'tel:+66945395991'
+// */}

@@ -1,5 +1,4 @@
 import "./Homes.css";
-// import Iframe from 'react-iframe'
 
 export default function Homes() {
   document.cookie = "_Pg=Home; SameSite=None; Secure";

@@ -13,7 +13,7 @@ export default function Contacts() {
       <h2>Contact</h2>
       <div className="Contacts-1">
         <div className="Contacts-2">
-          <iframe src="https://www2.bigbrain-studio.com/test2/index.html" width="100%"height="100%" loading="lazy" frameBorder="0"/>
+          <iframe src="https://www2.bigbrain-studio.com/test2/index.html" title="test" width="100%"height="100%" loading="lazy" frameBorder="0"/>
         </div>
         <div className="Contacts-2">
           <div className="Contacts-4">
